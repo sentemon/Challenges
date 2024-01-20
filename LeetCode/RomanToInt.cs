@@ -1,6 +1,5 @@
 public class Solution {
     public int RomanToInt(string s) {
-        int sum = 0;
         Dictionary<char, int> romanNumerals = new Dictionary<char, int>
         {
             {'I', 1},
